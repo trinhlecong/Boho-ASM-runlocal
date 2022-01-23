@@ -6,7 +6,7 @@ services:
       dockerfile: ./docker/api/Dockerfile.dev
     volumes:
       - type: bind
-        source: ./Boho-ASM
+        source: ../Boho-ASM
         target: /app
     ports:
       - "8069:80"
